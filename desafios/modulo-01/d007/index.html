@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+
+    <style>
+        body {
+            background-color: rgb(43, 38, 38);
+            
+        }
+        h1 {
+            color: blanchedalmond;
+        }
+        p {
+            color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F92F </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1150px)" srcset="imagens/imagem-m.png" type="image/png">
+        <a href="https://www.pexels.com/pt-br/" target="_blank"><img src="imagens/imagem-g.png" alt="Imagem flex completa"></a>
+    </picture>
+</body>
+</html>

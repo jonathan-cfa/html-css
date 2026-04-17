@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+        <h2>Negrito /  Destaque</h2>
+            <p>Nesta frase temos um <b> termo em negrito</b> usando a tag &lt;B&gt; (não semântica)</p>
+            <p>Nesta frase, tenho um <strong> termo em destaque</strong> usando a tag STRONG (semântica).</p>
+        <h2>Itálico / Ênfase</h2>
+            <P>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</P>
+            <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+        <h2>Texto marcado</h2>
+            <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+            <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+        <h2>Texto grande e pequeno</h2>
+            <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+        <h2>Texto deletado</h2>
+            <p>Podemos marcar  <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
+        <h2>Texto inserido</h2>
+            <p>Podemos marcar  <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+            <p>Existe também o <u>sublinhado</u> com a tag U (não semântico)</p>
+        <h2>Texto sobrescrito</h2>
+            <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+        <h2>Texto subscrito</h2>
+            <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+        <h2>Trechos de Código</h2>
+            <h3>Exemplo de código em Python</h3>
+<pre>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é par')
+        else:
+            print(f'O número {num} é ímpar')
+        print('FIM DO PROGRAMA')
+    </code>
+</pre>
+        <h2>Citações</h2>
+            <h3>Usando a tag &lt;q&gt; que vai receber as aspas mas não terá nenhum deslocamento</h3>
+                <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</q>
+            <h3>Criar citações mais longas (em bloco) e que tenham parágrafo para si com  &lt;blockquote>&gt;&lt;/blockquote&gt;</h3>
+                <blockquote cite="https://pythoniluminado.netlify.app/sintaxe/">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tempora saepe modi? Aut ipsa veniam cum vitae nostrum eaque, consectetur explicabo ullam necessitatibus, velit esse aspernatur error quisquam excepturi porro.</blockquote>
+        <h2>ABREVIAÇÕES</h2>
+            <p>Ajuda no uso de siglas e abreviações, explicando ao usuario e mecanismo de busca, o significado. Use &lt;abbr&gt;</p> <!--<abbr>-->
+            <p>Eu estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites.</p>
+        <h2>Texto Invertido</h2>
+        <p>use o &lt;bdo&gt; para inverter o  texto.</p>
+        <bdo dir="rtl">Este texto todo está invertido no formato Right-To-Left</bdo>
+        <p>rtl - da direita para esquerda, ltr da esquerda para direita</p>
+</body>
+</html>
