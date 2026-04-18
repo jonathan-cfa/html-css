@@ -19,9 +19,14 @@
 header{
     color: white;
     background-color: black;
-    min-height: 270px;
+    padding-top: 50px;
     text-align: center;
 }
+
+header p {
+    padding-bottom: 50px;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -37,12 +42,21 @@ h1{
     padding-top: 50px;
 }
 
-section p{
+section{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
+}
+
+section p {
     font-family: var(--fonte-cordel);
     font-size: 3.5vw;
-    padding: 60px 30px 60px 30px;
     line-height: 2em;
+    padding-bottom: 96px;
 }
+
+
+
 footer{
     background-color: black;
     color: white;
@@ -51,23 +65,32 @@ footer{
 
 }
 
-#p1{
+#foto1{
     background-image: url('../imagens/background001.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: cover;
     background-attachment: fixed;
-    box-shadow:  -2px -1px 8px 1px #000000cf;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+
 }
 
-#p2{
+#foto2{
     background-image: url('../imagens/background002.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: right center;
-    box-shadow:  -2px -1px 8px 1px #000000cf;
-}
-p.especial{
+    background-attachment: fixed;
     color: white;
+    text-shadow: 1px 1px 1px black;
+
 }
+
+.especial{
+    background-color: rgba(0, 0, 0, 0.486);
+    max-width: 600px;
+    display: inline-block;
+}
+
