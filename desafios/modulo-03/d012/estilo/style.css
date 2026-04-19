@@ -73,7 +73,7 @@ footer{
     background-attachment: fixed;
     color: white;
     text-shadow: 1px 1px 1px black;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: -4px -1px 11px 3px #0000008f;
 
 }
 
@@ -85,6 +85,7 @@ footer{
     background-attachment: fixed;
     color: white;
     text-shadow: 1px 1px 1px black;
+    -4px -1px 11px 3px #0000008f;
 
 }
 
